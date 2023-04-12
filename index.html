@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Portfolio</title>
-  <meta content="" name="descriptison">
+  <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -15,68 +15,76 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: DevFolio - v2.3.0
-  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Devicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 </head>
 
-<body id="page-top">
+<body>
 
-  <!-- ======= Header/ Navbar ======= -->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Rogério Costa</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Áreas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Portfólio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contato</a>
-          </li>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Início</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+          <li><a class="nav-link scrollto" href="#experiences">Experiências</a></li>
+          <li><a class="nav-link scrollto" href="#languages">Linguagens</a></li>
+          <li><a class="nav-link scrollto " href="#work">Portfólio</a></li>
         </ul>
-      </div>
-    </div>
-  </nav>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-  <!-- ======= Intro Section ======= -->
-  <div id="home" class="intro route bg-image" style="background-image: url(assets/img/intro-bg.jpg)">
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
     <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
+    <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <p class="intro-subtitle">Se você tem algum projeto em mente, não o deixe ir, eu posso te ajudar a torná-lo realidade</p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+          <p class="display-6 color-d">Olá!</p>
+          <h1 class="hero-title mb-4">Eu sou Rogério Costa</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Desenvolvedor, Freelancer"></span></p>
+
+          <p class="pt-3">
+            <a class="js-scroll px-4 display-6 color-d" href="https://www.linkedin.com/in/rog%C3%A9rio-costa-negro/"
+              target="_blank" role="button">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a class="js-scroll px-4 display-6 color-d" href="https://github.com/rogerio-costa" target="_blank"
+              role="button">
+              <i class="bi bi-github fa-sm"></i>
+            </a>
+            <!-- <a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a> -->
+          </p>
         </div>
       </div>
     </div>
-  </div><!-- End Intro Section -->
+  </div><!-- End Hero Section -->
 
   <main id="main">
 
@@ -91,36 +99,16 @@
                   <div class="row">
                     <div class="col-sm-6 col-md-5">
                       <div class="about-img">
-                        <img src="assets/img/perfil.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                        <img src="assets/img/foto-perfil.jpg" class="img-fluid rounded b-shadow-a" alt="">
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
                         <p><span class="title-s">Nome: </span> <span>Rogério Costa Negro Rocha</span></p>
-                        <p><span class="title-s">Formação: </span> <span>Bacharelado em Sistemas de Informações</span></p>
-                        <!--<p><span class="title-s">Perfil: </span> <span>full stack developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                        <p><span class="title-s">Telefone: </span> <span>(617) 557-0089</span></p>-->
+                        <p><span class="title-s">Perfil: </span> <span>desenvolvedor full stack</span></p>
+                        <p><span class="title-s">Email: </span> <span>rogeriocostanegro@hotmail.com</span></p>
+                        <p><span class="title-s">Telefone: </span> <span>(38) 9 9122-4430</span></p>
                       </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Conhecimentos</p>
-                    <span>HTML</span> <span class="pull-right">85%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>CSS3</span> <span class="pull-right">75%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>PHP</span> <span class="pull-right">50%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -132,19 +120,22 @@
                       </h5>
                     </div>
                     <p class="lead">
-                      Olá, meu nome é Rogério.
+                      Possuo formação em Bacharelado em Sistemas de Informação, pelo Instituto Federal do Norte de Minas
+                      Gerais - IFNMG - <i>Campus</i> Salinas. Durante a gradução desenvolvi dois projetos para a
+                      instituição. O primeiro foi voltado para gestão de pacientes e recursos da enfermaria da
+                      instituição. Ademais desenvolvi um Algoritmo Genético voltado para a alocação de horários do
+                      ensino superior do <i>Campus</i>.
                     </p>
                     <p class="lead">
-                        Sou estudante no curso de Sistemas de Informações.
-                      </p>
-                    <p class="lead">
-                        Se você quer divulgar seu trabalho online, eu adoraria ajudá-lo a expandir seus negócios com um site por exemplo.
+                      Trabalhei por mais de um ano na empresa SagaTech Brasil como desenvolvedor <i>full stack
+                        mobile</i> e
+                      <i>web</i>.
                     </p>
                     <p class="lead">
-                        Caso tenha um empreendimento, já pensou que uma aplicação WEB feita totalmente sob medida poderia e muito te fornecer mais comodidade nas suas tarefas do cotidiano ?
-                    </p>
-                    <p class="lead">
-                        Enfim, não se esqueça que não vale a pena somente ter um projeto em mente e nunca o realizar. Eu posso te ajudar com isso, deselvolvendo algo perfeito para você.
+                      Hodiernamente sou mestrando do Curso de Mestrado Profissional em Modelagem Computacional e
+                      Sistemas, <i>Stricto Sensu</i> pela Universidade Estadual de Montes Claros - Unimontes. Outrossim,
+                      atuo como desenvolvedor <i>freelancer</i> para projetos <i>desktop</i>, <i>mobile</i> e
+                      <i>web</i>.
                     </p>
                   </div>
                 </div>
@@ -155,119 +146,232 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="service" class="services-mf pt-5 route">
+    <!-- ======= Experiences Section ======= -->
+    <section id="experiences" class="services-mf pt-5 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
-                Áreas
+                Experiências
               </h3>
-              <p class="subtitle-a">
-                Aqui estão algumas das áreas que mais tenho interesse.
-              </p>
+              <!-- <p class="subtitle-a">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p> -->
               <div class="line-mf"></div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="ion-monitor"></i></span>
+                <span class="ico-circle">
+                  <i class="bi bi-plus"></i>
+                  01
+                </span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Design Web</h2>
+                <h2 class="s-title">Ano de Experiência CLT</h2>
                 <p class="s-description text-center">
-                    O design de interface tem o papel fundamental de oferecer soluções amigáveis e intuitivas para o usuário final.
+                  Cargo de desenvolvedor full stack, utilizando PHP e Java.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="ion-code-working"></i></span>
+                <span class="ico-circle">
+                  <i class="bi bi-plus"></i>
+                  03</i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Desenvolvimento Web</h2>
+                <h2 class="s-title">Anos como Desenvolvedor Freelancer</h2>
                 <p class="s-description text-center">
-                    Aplicações voltadas para WEB, como um site, podem ajudar na lapidação de seu negócio.
+                  Desenvolvimento full stack, desktop, mobile e web.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+        </div>
+      </div>
+    </section><!-- End Experiences Section -->
+
+    <!-- ======= Languages Section ======= -->
+    <section id="languages" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Linguagens e Tecnologias
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
             <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="ion-social-python"></i></span>
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-python-plain colored"></i>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Python</h2>
                 <p class="s-description text-center">
-                    Uma das linguagens de programação mais utilizadas nos últimos anos, usada em grandes corporações como Google e Nasa.
+                  + de 4 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-django-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Django</h2>
+                <p class="s-description text-center">
+                  + de 4 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-php-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">PHP</h2>
+                <p class="s-description text-center">
+                  + de 4 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-laravel-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Laravel</h2>
+                <p class="s-description text-center">
+                  + de 3 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-java-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Java</h2>
+                <p class="s-description text-center">
+                  + de 4 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-git-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Git</h2>
+                <p class="s-description text-center">
+                  + de 4 anos utilizando
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-flutter-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Flutter</h2>
+                <p class="s-description text-center">
+                  + de 2 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-dart-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Dart</h2>
+                <p class="s-description text-center">
+                  + de 2 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-html5-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">HTML</h2>
+                <p class="s-description text-center">
+                  + de 4 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-css3-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">CSS</h2>
+                <p class="s-description text-center">
+                  + de 4 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-javascript-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">JavaScript</h2>
+                <p class="s-description text-center">
+                  + de 4 anos de uso
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="js-scroll px-4 display-6 color-b service-ico">
+                <i class="devicon-tailwindcss-plain colored"></i>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Tailwind</h2>
+                <p class="s-description text-center">
+                  + de 2 anos de uso
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Counter Section ======= -->
-    <!--
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-              </div>
-              <div class="counter-num">
-                <p class="counter">450</p>
-                <span class="counter-text">WORKS COMPLETED</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-              </div>
-              <div class="counter-num">
-                <p class="counter">15</p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="ion-ios-people"></i></span>
-              </div>
-              <div class="counter-num">
-                <p class="counter">550</p>
-                <span class="counter-text">TOTAL CLIENTS</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-              </div>
-              <div class="counter-num">
-                <p class="counter">36</p>
-                <span class="counter-text">AWARD WON</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>--><!-- End Counter Section -->
+    </section>
+    <!-- End Languages Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="work" class="portfolio-mf sect-pt4 route">
@@ -279,7 +383,7 @@
                 Portfólio
               </h3>
               <p class="subtitle-a">
-                Aqui estão alguns dos meus projetos.
+                Aqui estão alguns dos meus trabalhos.
               </p>
               <div class="line-mf"></div>
             </div>
@@ -288,22 +392,18 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/folio-index.jpg" data-gall="portfolioGallery" class="venobox">
+              <a href="assets/img/portfolio/folio.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/folio-index.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/portfolio/folio.jpg" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-12">
                     <h2 class="w-title">Fólio</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Aplicação WEB para gestão de lojas.</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                      <span>Aplicação WEB para gestão de lojas</span> /
+                      <span class="w-ctegory">Python, Django</span>
                     </div>
                   </div>
                 </div>
@@ -312,22 +412,19 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/quiron-index.jpg" data-gall="portfolioGallery" class="venobox">
+              <a href="assets/img/portfolio/quiron.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/quiron-index.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/portfolio/quiron.jpg" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-12">
                     <h2 class="w-title">Quíron</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Sistema de suporte para controle de pacientes na enfermaria escolar do IFNMG - Campus Salinas.</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                      <span>Sistema de suporte para controle de pacientes na enfermaria escolar do IFNMG - Campus
+                        Salinas</span> /
+                      <span class="w-ctegory">Java</span>
                     </div>
                   </div>
                 </div>
@@ -336,161 +433,50 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/chronos-index.jpg" data-gall="portfolioGallery" class="venobox">
+              <a href="assets/img/portfolio/folio-sgf.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/chronos-index.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/portfolio/folio-sgf.jpg" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Chronos</h2>
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Fólio - SGF</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Aplicação WEB para alocação de horários utilizando Algoritmos Genéticos.</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                      <span>Aplicação WEB para gestão de fazendas</span> /
+                      <span class="w-ctegory">PHP, Laravel</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/portfolio/loja-mundo-encantado.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/portfolio/loja-mundo-encantado.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Mundo Encantado</h2>
+                    <div class="w-more">
+                      <span>E-commerce</span> /
+                      <span class="w-ctegory">Wordpress</span> /
+                      <a class="w-ctegory" href="https://www.mundoencantadoinfantil.com.br/"
+                        target="_blank">www.mundoencantadoinfantil.com.br</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section><!-- End Portfolio Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <!--
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div id="testimonial-mf" class="owl-carousel owl-theme">
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Xavi Alonso</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
-              </div>
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Marta Socrate</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div--><!-- End Testimonials Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/intro-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Me mande uma mensagem
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                              <div class="validate"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Please enter a valid email" />
-                              <div class="validate"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validate"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
-                              <div class="validate"></div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center mb-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Enviar Mensagem</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Entrar em contato
-                      </h5>
-                    </div>
-                    <!--
-                    <div class="more-info">
-                      <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                        <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                        <li><span class="ion-email"></span> contact@example.com</li>
-                      </ul>
-                    </div>-->
-                    <div class="socials">
-                      <ul>
-                        <li><a href="https://github.com/rogerio-costa" target="_blank"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
-                        <li><a href="https://www.linkedin.com/in/rog%C3%A9rio-costa-negro/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -500,35 +486,24 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>Rogério Costa</strong>. All Rights Reserved</p>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
+            <p class="copyright">&copy; Copyright <strong>Rogério Costa Negro Rocha</strong>.</p>
           </div>
         </div>
       </div>
     </div>
   </footer><!-- End  Footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
